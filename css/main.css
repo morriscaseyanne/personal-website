@@ -68,18 +68,26 @@ nav ul li a {
 /*****MAIN SECTION*****/
 
 #intro {
-  background: url("../img/headerimage.png");
-  background-size: cover;
   clear: both;
   height: 850px;
 }
 
+#intro img
+{
+    position:absolute;
+    width:100%;
+    max-width: 100%;
+    z-index: -1;
+}
+
 #intro h5 {
   color: white;
+  display: inline-block;
   font-size: 27px;
   font-weight: normal; /***in case browser doesn't support font with a light weight***/
   font-weight: 300;
-  padding: 150px 20% 0 75px;
+  line-height: 160%;
+  padding: 200px 20% 0 75px;
 }
 
 /*****HOMEPAGE SUBSECTIONS*****/
