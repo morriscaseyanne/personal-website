@@ -27,7 +27,7 @@ body {
 
 header {
   background-color: #00875a;
-  display: inline-block;
+  display: inline-block !important;
   font-family: "Playfair Display", "Georgia", serif;
   height: 75px;
   position: fixed;
@@ -72,15 +72,14 @@ nav ul li a {
   height: 850px;
 }
 
-#intro img
-{
-    position:absolute;
-    width:100%;
+#intro img {
+    position: absolute;
+    width: 100%;
     max-width: 100%;
     z-index: -1;
 }
 
-#intro h5 {
+#intro p {
   color: white;
   display: inline-block;
   font-size: 27px;
